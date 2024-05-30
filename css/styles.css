@@ -1,23 +1,23 @@
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #6c757d;
-  background-color: #f8f9fa;
+  color: #3d348b;
+  background-color: #ddd72c;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #343a40;
+  color: #3d348b;
 }
 
 hr {
   border-width: 1px;
-  border-color: rgba(255, 249, 251, 0.4);
+  border-color: rgb(237, 218, 7, 0.4);
 }
 
 a {
-  color: #f3a14b;
+  color: #e6af2e;
 }
 a:hover {
-  color: #93ada4;
+  color: #e0e2db;
   text-decoration: none;
 }
 
@@ -25,7 +25,7 @@ header.masthead {
   padding-top: 6rem;
   padding-bottom: 3rem;
   text-align: center;
-  background-color: #c8dec0;
+  background-color: #191716;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -40,7 +40,7 @@ header.masthead {
   font-weight: 450;
   font-size: 1.5rem;
   line-height: 1.2;
-  color: #dc7646;
+  color: #e6af2e;
 }
 .masthead-full-name {
   font-family: 'Anton', sans-serif;
@@ -48,7 +48,7 @@ header.masthead {
   font-size: 2.75rem;
 }
 .last-name-highlight {
-  color: #f3a14b;
+  color: #e6af2e;
 }
 @media (max-width: 576px) {
   .masthead-full-name {
@@ -59,7 +59,7 @@ header.masthead {
 }
 
 .bg-primary {
-  background-color: #f0d6a8 !important;
+  background-color: #e0e2db !important;
 }
 
 .img-profile {
@@ -72,7 +72,7 @@ header.masthead {
   .img-profile {
     max-width: 12rem;
     max-height: 12rem;
-    border: 0.5rem solid rgba(255, 249, 251, 0.5);
+    border: 0.5rem solid #3d348b;
   }
 }
 
@@ -92,7 +92,7 @@ header.masthead {
   font-family: 'Anton', sans-serif;
   font-weight: 450;
   line-height: 1.2;
-  color: #343a40;
+  color: #3d348b;
 }
 
 .font-italic {
@@ -100,11 +100,11 @@ header.masthead {
 }
 
 .text-primary {
-  color: #f3a14b !important;
+  color: #e6af2e !important;
 }
 
 .text-dark {
-  color: #343a40 !important;
+  color: #191716 !important;
 }
 
 .social-icons .social-icon {
@@ -114,7 +114,7 @@ header.masthead {
   height: 3rem;
   width: 3rem;
   background-color: #6c757d;
-  color: #f8f9fa;
+  color: #e0e2db;
   border-radius: 100%;
   font-size: 1.5rem;
   margin-right: 1.5rem;
@@ -126,7 +126,7 @@ header.masthead {
   justify-content: center;
   height: 4rem;
   width: 4rem;
-  background-color: #6c757d;
+  background-color: #191716;
   color: #f8f9fa;
   border-radius: 100%;
   font-size: 1.5rem;
@@ -137,7 +137,7 @@ header.masthead {
   margin-right: 0;
 }
 .social-icons .social-icon:hover {
-  background-color: #dc7646;
+  background-color: #e6af2e;
 }
 
 .dev-icons {
@@ -147,22 +147,22 @@ header.masthead {
 .footer {
   text-align: center;
   font-size: 0.9rem;
-  background-color: #eadfc9;
+  background-color: #191716;
 }
 
 /* CV navbar styling */
 
 .navbar-dark .navbar-brand {
-  color: #fff;
+  color: #191716;
 }
 .navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
   color: #fff;
 }
 .navbar-dark .navbar-nav .nav-link {
-  color: #f3a14b;
+  color: #e6af2e;
 }
 .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
-  color: #93ada4;
+  color: #e6af2e;
 }
 .navbar-dark .navbar-nav .nav-link.disabled {
   color: rgba(255, 255, 255, 0.25);
@@ -171,7 +171,7 @@ header.masthead {
 .navbar-dark .navbar-nav .active > .nav-link,
 .navbar-dark .navbar-nav .nav-link.show,
 .navbar-dark .navbar-nav .nav-link.active {
-  color: #93ada4;
+  color: #3d348b;
 }
 .navbar-dark .navbar-toggler {
   color: rgba(255, 255, 255, 0.5);
@@ -187,21 +187,21 @@ header.masthead {
   color: #fff;
 }
 .navbar-dark .navbar-text a:hover, .navbar-dark .navbar-text a:focus {
-  color: #93ada4;
+  color: #e6af2e;
 }
 
 /* Button Styling */
 
 .btn-primary {
   color: #f8f9fa;
-  background-color: #f3a14b;
-  border-color: #f3a14b;
+  background-color: #e6af2e;
+  border-color: #3d348b;
 }
 
 .btn-primary:hover {
   color: #f8f9fa;
-  background-color: #93ada4;
-  border-color:#93ada4;
+  background-color: #af1212;
+  border-color:#af22b9;
 }
 .btn-primary:focus, .btn-primary.focus {
   color: #bfdbcf;
