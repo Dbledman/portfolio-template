@@ -25,12 +25,18 @@ header.masthead {
   padding-top: 6rem;
   padding-bottom: 3rem;
   text-align: center;
-  background-color: #eadfc9;
+  background-color: #c8dec0;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
-  font-family: 'Anton', sans-serif;
+  .poetsen-one-regular {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+  }
+
   font-weight: 450;
   font-size: 1.5rem;
   line-height: 1.2;
@@ -53,7 +59,7 @@ header.masthead {
 }
 
 .bg-primary {
-  background-color: #eadfc9 !important;
+  background-color: #f0d6a8 !important;
 }
 
 .img-profile {
