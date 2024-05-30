@@ -1,7 +1,7 @@
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "poetsen one", Helvetica, Arial, sans-serif;
   color: #3d348b;
-  background-color: #ddd72c;
+  background-color: #e6af2e;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -10,7 +10,7 @@ h1, h2, h3, h4, h5, h6 {
 
 hr {
   border-width: 1px;
-  border-color: rgb(237, 218, 7, 0.4);
+  border-color: #e6af2e;
 }
 
 a {
@@ -31,8 +31,8 @@ header.masthead {
   background-position: center center;
   background-size: cover;
   .poetsen-one-regular {
-    font-family: "Poetsen One", sans-serif;
-    font-weight: 400;
+    font-family: 'poetsen one', sans-serif;
+    font-weight: 700;
     font-style: normal;
 
   }
@@ -43,7 +43,7 @@ header.masthead {
   color: #e6af2e;
 }
 .masthead-full-name {
-  font-family: 'Anton', sans-serif;
+  font-family: 'poetsen one', sans-serif;
   text-transform: uppercase;
   font-size: 2.75rem;
 }
@@ -52,7 +52,7 @@ header.masthead {
 }
 @media (max-width: 576px) {
   .masthead-full-name {
-    font-family: 'Anton', sans-serif;
+    font-family: 'poetsen one', sans-serif;
     text-transform: uppercase;
     font-size: 2rem;
   }
@@ -81,7 +81,7 @@ header.masthead {
 }
 
 .subheading {
-  font-family: 'Anton', sans-serif;
+  font-family: 'poetsen one', sans-serif;
   text-transform: uppercase;
   font-weight: 400;
   font-size: 1.2rem;
@@ -89,7 +89,7 @@ header.masthead {
 
 .cv-titles {
   margin-bottom: 0.5rem;
-  font-family: 'Anton', sans-serif;
+  font-family: 'poetsen one', sans-serif;
   font-weight: 450;
   line-height: 1.2;
   color: #3d348b;
@@ -200,8 +200,8 @@ header.masthead {
 
 .btn-primary:hover {
   color: #f8f9fa;
-  background-color: #af1212;
-  border-color:#af22b9;
+  background-color: #e6af2e;
+  border-color:#e6af2e;
 }
 .btn-primary:focus, .btn-primary.focus {
   color: #bfdbcf;
@@ -317,35 +317,35 @@ header.masthead {
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: #eadfc9;
-  color: #f8f9fa;
+  background-color: #3d348b;
+  color: #e0e2db;
 }
 #mainNav .navbar-toggler {
   padding: 0.75rem;
   font-size: 1.25rem;
-  color: #dc7646;
+  color: #3d348b;
   text-transform: uppercase;
-  background-color: #bfdbcf;
+  background-color: #e6af2e;
   border: 0;
 }
 #mainNav .navbar-brand {
-  color: #dc7646;
+  color: #e6af2e;
   font-weight: 700;
   letter-spacing: 0.0625em;
-  font-family: 'Anton', sans-serif;
+  font-family: 'poetsen one', sans-serif;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
   font-size: 0.95rem;
-  color: #dc7646;
+  color: #e6af2e;
   letter-spacing: 0.0625em;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active{
-  color: #DB995A;
+  color: #e6af2e;
 } 
 
 #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #DB995A;
+  color: #e6af2e;
 }
 
 @media (min-width: 992px) {
@@ -401,7 +401,7 @@ header.masthead {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: #93ada4;
+  background: #e6af2e;
   align-items: center;
   justify-content: center;
   opacity: 0;
